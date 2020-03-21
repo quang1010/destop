@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+      let M=[]
+      
+    for(let i=0;i<10;)
+      {
+        let flag=0
+        let a=Math.random()
+        let b=Math.round(a*10+20)
+        
+        for(j=0;j<M.length;j++)
+        {
+            if(b==M[j])
+            {
+                flag=1
+                break;
+            }
+        }
+
+        if(flag==0)
+        {
+                M.push(b)
+                i++
+        }
+
+      } 
+      for(let i=0;i<10;i++)
+      document.write(M[i]+' ')
+
+
+           
+    </script>
+</body>
+</html>

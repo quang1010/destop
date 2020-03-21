@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a,b,c,d
+        let dongMax=0
+        let max=20
+        let min=90
+        let count=0
+        let boi=0
+        let snt=25
+        let sum=0
+        let tongBien=0
+        let W = [ [],[],[],[],[]];
+        for(let i = 0; i<5 ; i++)
+        {
+            sum=0
+            
+            
+            for(let j = 0; j<5 ; j++)
+            {
+                
+                a = Math.random()
+                b = Math.round(a*70+20)
+                W[i].push(b) ;
+                document.write(W[i][j]+' ')
+             //giá trị lớn nhất trong mảng   
+                if(W[i][j]>max)
+                {
+                    max=W[i][j];
+                }
+            //giá trị nhỏ nhất trong mảng 
+                if(W[i][j]<min)
+                {
+                    min=W[i][j]
+                }
+
+            //số lượng các số chẳn trong mảng
+                if(W[i][j]%2==0)
+                {
+                    count=count+1
+                }
+            //số lượng các số là bội của 5 trong mảng     
+                 if(W[i][j]%5==0)
+                 {
+                     boi=boi+1
+                 }
+            //số lượng các số nguyên tố trong mảng     
+                 for(let k=2;k<=Math.sqrt(W[i][j]);k++)
+                 {
+                    if(W[i][j]%k==0)
+                    {
+                        snt=snt-1
+                        break
+                    }
+                 }
+            
+
+
+            //hiển thị dòng có tổng các giá trị Max trong mảng
+                 sum=sum+W[i][j]
+              
+        
+            }
+
+            if(sum>dongMax)
+            {
+                dongMax=sum;
+                c=i
+                
+            
+            }
+            document.write('<br>')
+
+            
+                    
+        }
+
+      
+        document.write('max='+max)
+        document.write('<br>')
+        document.write('min='+min)
+        document.write('<br>')
+        document.write('số lượng các số chẳn có trong mảng là: '+count)
+        document.write('<br>')
+        document.write('số lượng các số bội của 5 là: '+boi)
+        document.write('<br>')
+        document.write('số lượng các số nguyên tố có trong mảng là: '+snt)
+        document.write('<br>')
+        document.write('dòng có tổng các giá trị lớn nhất là: '+W[c])
+        document.write('<br>')
+        
+        let tongphu=0
+        let tong=0
+        for(let i = 0; i<5 ; i++)
+        {
+            tong=tong+W[i][i]
+            d=4-i
+            tongphu=tongphu+W[i][d]
+            for(let j=0;j<5;j++)
+            {
+                if(i==0||j==0||i==4||j==4)
+                tongBien=tongBien+W[i][j]
+            }
+        }
+        document.write('tổng của các giá trị của đường chéo chính và đường chéo phụ lần lượt là:'+tong+','+tongphu)
+        document.write('<br>')
+        document.write('tổng các giá trị của biên ở mảng là: '+tongBien)
+
+
+  
+        
+        
+       
+
+
+    </script>
+</body>
+</html>
