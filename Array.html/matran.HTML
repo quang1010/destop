@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p><input type="number" id="nhap" placeholder="Nhập hàng,cột" oninput="main()"></p>
+    <p>Tổng các số chẵn:<span id="sum1"> </span></p>
+    <p>Tổng Đường chéo chính:<span id="sum2"> </span></p>
+    <p>Tổng đường chéo phụ:<span id="sum3"></span></p>
+    <p>Tổng đường biên:<span id="sum4"></span></p>
+    <p>Hiển thị ma trận: <br><span id="maTran"></span></p>
+    <p>Hiển thị ma trận trên: <br><span id="maTrantren"></span></p>
+    <p>Hiển thị ma trận dưới: <br><span id="maTranduoi"></span></p>
+    <p>Hiển thị ma trận 1: <br><span id="maTran1"></span></p>
+    <p>Hiển thị ma trận 2: <br><span id="maTran2"></span></p>
+    <p>Hiển thị ma trận 1+2: <br><span id="maTran3"></span></p>
+    <p>Hiển thị ma trận 1*2: <br><span id="maTran4"></span></p>
+    <script>
+        function maTran(r, c) {
+            let array = [];
+            for (let i = 0; i < c; i++) {
+                array[i] = [];
+                for (let j = 0; j < r; j++) {
+                    array[i][j] = Math.floor(Math.random() * 80 + 10)
+                }
+            }
+            return array;
+        }
+
+        function print(array, r, c) {
+            let sOut = "<table border=2>";
+            for (let i = 0; i < r; i++) {
+                sOut += "<tr>";
+                for (let j = 0; j < c; j++) {
+                    sOut += "<td>" + array[i][j] + "</td>";
+                }
+                sOut += "</tr>";
+            }
+            sOut += "</table>";
+            return sOut;
+        }
+
+        function printTamgiacduoi(array, r, c) {
+            let sOut = "<table border=2>";
+            for (let i = 0; i < r; i++) {
+                sOut += "<tr>";
+                for (let j = 0; j <= i; j++) {
+                    sOut += "<td>" + array[i][j] + "</td>";
+                }
+                sOut += "</tr>";
+            }
+            sOut += "</table>";
+            return sOut;
+        }
+
+        function nhap() {
+            return document.getElementById("nhap").value;
+        }
+        // 1. Tính tổng các số chẵn trong ma trận
+        function sumEvent(array, r, c) {
+            let sum1 = 0;
+            for (let i = 0; i < r; i++) {
+                for (let j = 0; j < c; j++) {
+                    if (array[i][j] % 2 === 0) {
+                        sum1 += array[i][j];
+                    }
+                }
+            }
+            return sum1;
+        }
+        // document.write("<br>" + "Tổng các số chẵn: " + sum1);
+        // 2. Tính tổng các giá trị trên đường chéo chính
+        function sumDiagonal(array, r, c) {
+            let sum2 = 0;
+            for (let i = 0; i < r; i++) {
+                sum2 += array[i][i];
+            }
+            return sum2;
+        }
+        // document.write("<br>Tổng đường chéo chính: " + sum2 + " < br > ");
+        //  3. Tính tổng các giá trị trên đường chéo phụ
+        function sumDiagonal1(array, r, c) {
+            let sum3 = 0;
+            for (let i = 0; i < c; i++) {
+                sum3 += array[i][(c - 1) - i];
+            }
+            return sum3;
+        }
+        // document.write("<br>Tổng đường chéo phụ:" + sum3 + "<br>");
+        // 4. Tính tổng các giá trị trên đường biên
+        function sumBorder(array, r, c) {
+            let sum4 = 0;
+            // let n = r;
+            for (let i = 0; i < c; i++) {
+                sum4 += array[i][0] + array[i][r - 1];
+            }
+            for (let j = 1; j < r - 1; j++) {
+                sum4 += array[0][j] + array[c - 1][j]
+            }
+            return sum4;
+        }
+
+
+
+
+        // document.write("<br>Tổng đường biên: " + sum4 + " < br > ");
+        // 5. Hiển thị ma trận
+
+        // 6. Hiển thị ma trận tam giác dưới
+
+
+        function printTamgiactren(array, r, c) {
+            let sOut = "<table border=2>";
+            for (let i = 0; i < r; i++) {
+                sOut += "<tr>";
+                for (let j = 0; j < i; j++) {
+                    sOut += "<td>" + " " + "</td>";
+                }
+                for (let j = i; j < c; j++) {
+                    sOut += "<td>" + array[i][j] + "</td>";
+                }
+                sOut += "</tr>";
+            }
+            sOut += "</table>";
+            return sOut;
+        }
+
+        function tongmatran(array1, array2, r, c) {
+
+            let sOut = "<table border=2>";
+            for (let i = 0; i < r; i++) {
+                sOut += "<tr>";
+                for (let j = 0; j < c; j++) {
+                    let sum = array1[i][j] + array2[i][j]
+                    sOut += "<td>" + sum + "</td>";
+                }
+                sOut += "</tr>";
+            }
+            sOut += "</table>";
+            return sOut;
+
+        }
+
+
+
+        function tichmatran(array1, array2, r1, c1, r2, c2) {
+
+            let sOut = "<table border=2>";
+            if (c1 != r2)
+                return sOut;
+            else {
+                for (let i = 0; i < r1; i++) {
+                    sOut += "<tr>";
+                    for (let j = 0; j < c2; j++) {
+                        let sum = 0;
+                        for (k = 0; k < c1; k++) {
+                            sum = sum + array1[i][k] * array2[k][j];
+                        }
+                        sOut += "<td>" + sum + "</td>";
+                    }
+                    sOut += "</tr>";
+                }
+                sOut += "</table>";
+                return sOut;
+            }
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+        function main() {
+            let r = nhap();
+            let c = nhap();
+            let array = maTran(r, c);
+            let array1 = maTran(r, c)
+            let array2 = maTran(r, c)
+            let inMatrantren = printTamgiactren(array, r, c);
+            let inMatranduoi = printTamgiacduoi(array, r, c);
+            let inmatran = print(array, r, c)
+            let inmatran1 = print(array1, r, c)
+            let inmatran2 = print(array2, r, c)
+            let intongmatran = tongmatran(array1, array2, r, c)
+            let intichmatran = tichmatran(array1, array2, r, c, r, c)
+            let kq1 = sumEvent(array, r, c);
+            let kq2 = sumDiagonal(array, r, c);
+            let kq3 = sumDiagonal1(array, r, c);
+            let kq4 = sumBorder(array, r, c);
+
+            document.getElementById("maTran").innerHTML = inmatran
+            document.getElementById("maTrantren").innerHTML = inMatrantren
+            document.getElementById("maTranduoi").innerHTML = inMatranduoi
+            document.getElementById("maTran1").innerHTML = inmatran1
+            document.getElementById("maTran2").innerHTML = inmatran2
+            document.getElementById("maTran3").innerHTML = intongmatran
+            document.getElementById("maTran4").innerHTML = intichmatran
+            document.getElementById("sum1").innerHTML = kq1;
+            document.getElementById("sum2").innerHTML = kq2;
+            document.getElementById("sum3").innerHTML = kq3;
+            document.getElementById("sum4").innerHTML = kq4;
+
+        }
+        main();
+    </script>
+</body>
+
+</html>
