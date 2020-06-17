@@ -1,0 +1,13 @@
+C:\Users\tfoso\source\repos\CodeGym\Module2\[th]AcessModifier\[th]XayDungClassAnimal\bin\Debug\netcoreapp3.1\[th]XayDungClassAnimal.exe
+C:\Users\tfoso\source\repos\CodeGym\Module2\[th]AcessModifier\[th]XayDungClassAnimal\bin\Debug\netcoreapp3.1\[th]XayDungClassAnimal.deps.json
+C:\Users\tfoso\source\repos\CodeGym\Module2\[th]AcessModifier\[th]XayDungClassAnimal\bin\Debug\netcoreapp3.1\[th]XayDungClassAnimal.runtimeconfig.json
+C:\Users\tfoso\source\repos\CodeGym\Module2\[th]AcessModifier\[th]XayDungClassAnimal\bin\Debug\netcoreapp3.1\[th]XayDungClassAnimal.runtimeconfig.dev.json
+C:\Users\tfoso\source\repos\CodeGym\Module2\[th]AcessModifier\[th]XayDungClassAnimal\bin\Debug\netcoreapp3.1\[th]XayDungClassAnimal.dll
+C:\Users\tfoso\source\repos\CodeGym\Module2\[th]AcessModifier\[th]XayDungClassAnimal\bin\Debug\netcoreapp3.1\[th]XayDungClassAnimal.pdb
+C:\Users\tfoso\source\repos\CodeGym\Module2\[th]AcessModifier\[th]XayDungClassAnimal\obj\Debug\netcoreapp3.1\[th]XayDungClassAnimal.csprojAssemblyReference.cache
+C:\Users\tfoso\source\repos\CodeGym\Module2\[th]AcessModifier\[th]XayDungClassAnimal\obj\Debug\netcoreapp3.1\[th]XayDungClassAnimal.csproj.CoreCompileInputs.cache
+C:\Users\tfoso\source\repos\CodeGym\Module2\[th]AcessModifier\[th]XayDungClassAnimal\obj\Debug\netcoreapp3.1\[th]XayDungClassAnimal.AssemblyInfoInputs.cache
+C:\Users\tfoso\source\repos\CodeGym\Module2\[th]AcessModifier\[th]XayDungClassAnimal\obj\Debug\netcoreapp3.1\[th]XayDungClassAnimal.AssemblyInfo.cs
+C:\Users\tfoso\source\repos\CodeGym\Module2\[th]AcessModifier\[th]XayDungClassAnimal\obj\Debug\netcoreapp3.1\[th]XayDungClassAnimal.dll
+C:\Users\tfoso\source\repos\CodeGym\Module2\[th]AcessModifier\[th]XayDungClassAnimal\obj\Debug\netcoreapp3.1\[th]XayDungClassAnimal.pdb
+C:\Users\tfoso\source\repos\CodeGym\Module2\[th]AcessModifier\[th]XayDungClassAnimal\obj\Debug\netcoreapp3.1\[th]XayDungClassAnimal.genruntimeconfig.cache

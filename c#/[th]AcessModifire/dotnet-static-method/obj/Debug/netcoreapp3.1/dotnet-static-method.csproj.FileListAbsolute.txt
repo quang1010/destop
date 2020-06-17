@@ -1,0 +1,11 @@
+D:\CodeGym\Bai2\dotnet-static-method\bin\Debug\netcoreapp3.1\dotnet-static-method.exe
+D:\CodeGym\Bai2\dotnet-static-method\bin\Debug\netcoreapp3.1\dotnet-static-method.deps.json
+D:\CodeGym\Bai2\dotnet-static-method\bin\Debug\netcoreapp3.1\dotnet-static-method.runtimeconfig.json
+D:\CodeGym\Bai2\dotnet-static-method\bin\Debug\netcoreapp3.1\dotnet-static-method.runtimeconfig.dev.json
+D:\CodeGym\Bai2\dotnet-static-method\bin\Debug\netcoreapp3.1\dotnet-static-method.dll
+D:\CodeGym\Bai2\dotnet-static-method\bin\Debug\netcoreapp3.1\dotnet-static-method.pdb
+D:\CodeGym\Bai2\dotnet-static-method\obj\Debug\netcoreapp3.1\dotnet-static-method.csprojAssemblyReference.cache
+D:\CodeGym\Bai2\dotnet-static-method\obj\Debug\netcoreapp3.1\dotnet-static-method.AssemblyInfoInputs.cache
+D:\CodeGym\Bai2\dotnet-static-method\obj\Debug\netcoreapp3.1\dotnet-static-method.AssemblyInfo.cs
+D:\CodeGym\Bai2\dotnet-static-method\obj\Debug\netcoreapp3.1\dotnet-static-method.dll
+D:\CodeGym\Bai2\dotnet-static-method\obj\Debug\netcoreapp3.1\dotnet-static-method.pdb

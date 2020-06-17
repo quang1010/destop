@@ -1,0 +1,13 @@
+C:\Users\tfoso\source\repos\CodeGym\Module2\[th]AcessModifier\[th]XayDungClassStudent\bin\Debug\netcoreapp3.1\[th]XayDungClassStudent.exe
+C:\Users\tfoso\source\repos\CodeGym\Module2\[th]AcessModifier\[th]XayDungClassStudent\bin\Debug\netcoreapp3.1\[th]XayDungClassStudent.deps.json
+C:\Users\tfoso\source\repos\CodeGym\Module2\[th]AcessModifier\[th]XayDungClassStudent\bin\Debug\netcoreapp3.1\[th]XayDungClassStudent.runtimeconfig.json
+C:\Users\tfoso\source\repos\CodeGym\Module2\[th]AcessModifier\[th]XayDungClassStudent\bin\Debug\netcoreapp3.1\[th]XayDungClassStudent.runtimeconfig.dev.json
+C:\Users\tfoso\source\repos\CodeGym\Module2\[th]AcessModifier\[th]XayDungClassStudent\bin\Debug\netcoreapp3.1\[th]XayDungClassStudent.dll
+C:\Users\tfoso\source\repos\CodeGym\Module2\[th]AcessModifier\[th]XayDungClassStudent\bin\Debug\netcoreapp3.1\[th]XayDungClassStudent.pdb
+C:\Users\tfoso\source\repos\CodeGym\Module2\[th]AcessModifier\[th]XayDungClassStudent\obj\Debug\netcoreapp3.1\[th]XayDungClassStudent.csprojAssemblyReference.cache
+C:\Users\tfoso\source\repos\CodeGym\Module2\[th]AcessModifier\[th]XayDungClassStudent\obj\Debug\netcoreapp3.1\[th]XayDungClassStudent.csproj.CoreCompileInputs.cache
+C:\Users\tfoso\source\repos\CodeGym\Module2\[th]AcessModifier\[th]XayDungClassStudent\obj\Debug\netcoreapp3.1\[th]XayDungClassStudent.AssemblyInfoInputs.cache
+C:\Users\tfoso\source\repos\CodeGym\Module2\[th]AcessModifier\[th]XayDungClassStudent\obj\Debug\netcoreapp3.1\[th]XayDungClassStudent.AssemblyInfo.cs
+C:\Users\tfoso\source\repos\CodeGym\Module2\[th]AcessModifier\[th]XayDungClassStudent\obj\Debug\netcoreapp3.1\[th]XayDungClassStudent.dll
+C:\Users\tfoso\source\repos\CodeGym\Module2\[th]AcessModifier\[th]XayDungClassStudent\obj\Debug\netcoreapp3.1\[th]XayDungClassStudent.pdb
+C:\Users\tfoso\source\repos\CodeGym\Module2\[th]AcessModifier\[th]XayDungClassStudent\obj\Debug\netcoreapp3.1\[th]XayDungClassStudent.genruntimeconfig.cache
