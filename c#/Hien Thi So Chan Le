@@ -1,0 +1,47 @@
+using System;
+using System.Threading;
+
+namespace baitap
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            OddThread ot = new OddThread();
+            EvenThread et = new EvenThread();
+            Thread th1 = new Thread(ot.Run);
+            Thread th2 = new Thread(et.Run);
+            th1.Start();
+            th2.Start();
+        }
+    }
+    
+    class EvenThread
+    {
+        public void Run()
+        {
+            for (int i = 0; i < 100; i++)
+            {
+                if (i % 2 == 0)
+                {
+                    Console.WriteLine(i);
+                    System.Threading.Thread.Sleep(10);
+                }
+            }
+        }
+     }
+    class OddThread
+    {
+        public void Run()
+        {
+            for (int i = 0; i < 100; i++)
+            {
+                if (i % 2 != 0)
+                {
+                    Console.WriteLine(i);
+                    System.Threading.Thread.Sleep(15);
+                }
+            }
+        }
+    }
+}
