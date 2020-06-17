@@ -1,0 +1,84 @@
+using System.Threading;
+
+namespace baitap
+{
+ class OptimizedPrimeFactorization
+    {
+        public string Name { get; set; }
+        public OptimizedPrimeFactorization(string name)
+        {
+            Name = name;
+        }
+        public void Run()
+        {
+            for (int i = 1; i < 500; i++)
+            {
+                if (CheckPrime(i))
+                {
+                    Console.WriteLine($"{Name} : {i}");
+                    
+                }
+            }
+        }
+        private bool CheckPrime(int number)
+        {
+            for (int i = 2; i <=Math.Sqrt(number); i++)
+            {
+                if (number % i == 0)
+                {
+                    return false;
+                }
+            }
+            return true;
+        }
+    }
+    
+     class LazyPrimeFactorization
+    {
+        public string Name { get; set; }
+        public LazyPrimeFactorization(string name)
+        {
+            Name = name;
+        }
+        public void Run()
+        {
+            for (int i = 1; i < 500; i++)
+            {
+                if (CheckPrime(i))
+                {
+                    Console.WriteLine($"{ Name}:  {i}");
+                    
+                }
+            }
+        }
+        private bool CheckPrime(int number)
+        {
+            for (int i = 2; i < number; i++)
+            {
+                if (number % i == 0)
+                {
+                    return false;
+                }
+            }
+            return true;
+        }
+    }
+    
+    
+    
+    
+    class Program
+    {
+    
+
+        static void Main(string[] args)
+        {
+            LazyPrimeFactorization lz1 = new LazyPrimeFactorization("Threading1");
+            OptimizedPrimeFactorization op1 = new OptimizedPrimeFactorization("Threading2");
+            Thread thread1 = new Thread(lz1.Run);
+            Thread thread2 = new Thread(op1.Run);
+            thread1.Start();
+            thread2.Start();
+        }
+    }
+}
