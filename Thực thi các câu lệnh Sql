@@ -1,0 +1,18 @@
+CREATE DATABASE baitap
+CREATE TABLE khoa(
+makhoa varchar(10), tenkhoa varchar(30), dienthoai varchar(10)
+);
+CREATE TABLE GiangVien(
+magv int, hotengv varchar(30), luong decimal(5,2), makhoa varchar(10)
+);
+CREATE TABLE SinhVien(
+masv int, hotensv varchar(30), makhoa varchar(10), namsinh int, quequan varchar(30)
+);
+CREATE TABLE DeTai(
+madt varchar(10), tendt varchar(30), kinhphi int, NoiThucTap varchar(30)
+)
+INSERT INTO khoa values ('mot','Khoamot','12345')
+INSERT INTO GiangVien values (1,'tuan',5000.000,'mot')
+INSERT INTO SinhVien values (1,'lam','mot',1,'hue')
+INSERT INTO DeTai ('mot','tendetai',300,'hue')
+SELECT * FROM GiangVien
