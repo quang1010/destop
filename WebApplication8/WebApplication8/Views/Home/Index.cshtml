@@ -1,0 +1,22 @@
+﻿@model IEnumerable<Flower>
+@{
+    //var employees = ViewBag.Employees as IEnumerable<Employee>;
+    ViewBag.Title = "Flower list";
+}
+
+<div class="row">
+    @foreach (var emp in Model)
+    {
+        var avatarPath = $"/images/{(emp.AvatarPath ?? "lan1.jpg")}";
+        <div class="col-sm-3">
+            <div class="card my-2">
+                <div class="card-header">
+                    <img src="@avatarPath" class="card-img-top myImage" asp-append-version="true" />
+                </div>
+                
+                <h5 class="text-center">@emp.Name</h5>
+
+            </div>
+        </div>
+    }
+</div>

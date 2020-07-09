@@ -1,0 +1,28 @@
+﻿@model HomeDetailViewModel
+@{
+    ViewBag.Title = Model.TitleName;
+    //var employee = ViewBag.Employee as Employee;
+    var avatarPath = $"/images/{(Model.Flower.AvatarPath ?? "lan1.jpg")}";
+}
+<div class="row justify-content-center">
+    <div class="col-sm-6">
+        <div class="card my-2">
+            <div class="card-header">
+                <h3>@Model.Flower.Name</h3>
+            </div>
+            <div class="card-body text-center">
+                <img src="@avatarPath" class="card-img-top" asp-append-version="true" />
+                <h3>Flower ID: @Model.Flower.Id</h3>
+               
+                <h3>Type Flower: @Model.Flower.TypeF</h3>
+            </div>
+            <div class="card-footer text-center">
+                @*<a href="@Url.Action("Details","Home", new { id = Model.Employee.Id })" class="btn btn-info">View</a>*@
+                <a asp-controller="Home" asp-action="Index" class="btn btn-warning">Back</a>
+                <a asp-controller="Home" asp-action="Edit" asp-route-id="@Model.Flower.Id" class="btn btn-primary">Edit</a>
+                <a asp-controller="Home" asp-action="Delete"
+                   asp-route-id="@Model.Flower.Id" class="btn btn-danger">Delete</a>
+            </div>
+        </div>
+    </div>
+</div>
