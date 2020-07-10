@@ -1,0 +1,90 @@
+﻿@model DeleteUserViewModel
+@{
+    ViewBag.Title = "Delete User";
+    var roles = ViewBag.Roles as IQueryable<IdentityRole>;
+}
+<h3>Role management &gt; @ViewBag.Title </h3>
+<div class="row form-group">
+    <div class="col-sm-2">
+        <label asp-for="Email"></label>
+    </div>
+    <div class="col-sm-10 ">
+        <input asp-for="Email" class="form-control" readonly />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+</div>
+<div class="row form-group">
+    <div class="col-sm-2">
+        <label asp-for="City"></label>
+    </div>
+    <div class="col-sm-10 ">
+        <input asp-for="City" class="form-control" readonly />
+        <span asp-validation-for="City" class="text-danger"></span>
+    </div>
+</div>
+<div class="row form-group">
+    <div class="col-sm-2">
+        <label asp-for="Address"></label>
+    </div>
+    <div class="col-sm-10 ">
+        <input asp-for="Address" class="form-control" readonly />
+        <span asp-validation-for="Address" class="text-danger"></span>
+    </div>
+</div>
+<div class="row form-group">
+    <div class="col-sm-2">
+        <label asp-for="RoleId"></label>
+    </div>
+    <div class="col-sm-10 ">
+        <select asp-for="RoleId" class="custom-select">
+            <option value="">Select a Role</option>
+            @if (roles != null && roles.Any())
+            {
+                foreach (var role in roles)
+                {
+                    <option readonly value="@role.Id" selected="@(role.Id==Model.RoleId)">@role.Name</option>
+                }
+            }
+        </select>
+        <span asp-validation-for="RoleId" class="text-danger"></span>
+    </div>
+</div>
+
+<div class="row form-group">
+    <div class="col-sm-12">
+        <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#DeleteRoleModal">
+            Delete
+        </button>
+        <a asp-controller="User" asp-action="Index" class="btn btn-warning">Back</a>
+    </div>
+</div>
+<!-- Button to Open the Modal -->
+<!-- The Modal -->
+
+<div class="modal" id="DeleteRoleModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form asp-controller="User" asp-action="Delete" method="post">
+                <input hidden asp-for="RoleId" />
+                <input hidden asp-for="UserId" />
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Confirm delete role</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    Are you sure want to remove this role?
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary">Yes</button>
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">No</button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</div>

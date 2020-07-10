@@ -1,15 +1,14 @@
 ﻿@model IEnumerable<UserViewModel>
 @{
-    ViewBag.Title = "Management Users";
+    ViewBag.Title = "users management";
 }
 
 <h3>
     @ViewBag.Title
 </h3>
-<a asp-controller="User" asp-action="Create" class="btn btn-warning" style="width:auto">Create user</a>
-<a asp-controller="User" asp-action="Create" class="btn btn-warning" style="width:auto">Create user</a>
+<a asp-controller="User" asp-action="Create" class="btn btn-dark" style="width:auto">Create user</a>
 <table class="table table-bordered table-hover mt-2">
-    <thead class="table-dark">
+    <thead class="table-light">
         <tr>
             <th>Id</th>
             <th>Email</th>
@@ -24,31 +23,29 @@
         {
             foreach (var user in Model)
             {
-                <tr>
-                    <td>
-                        @user.UserId
-                    </td>
-                    <td>
-                        @user.Email
-                    </td>
-                    <td>
-                        @user.City
-                    </td>
-                    <td>
-                        @user.Address
-                    </td>
-                    <td>
-                        @user.RolesName
-                    </td>
-                    <td>
-                        <a asp-controller="User" asp-action="Edit" asp-route-id="@user.UserId" class="btn btn-warning">Edit</a>
-                        <a asp-controller="User" asp-action="Delete" asp-route-id="@user.UserId" class="btn btn-danger">Delete</a>
-                    </td>
-                </tr>
+        <tr>
+            <td>
+                @user.UserId
+            </td>
+            <td>
+                @user.Email
+            </td>
+            <td>
+                @user.City
+            </td>
+            <td>
+                @user.Address
+            </td>
+            <td>
+                @user.RolesName
+            </td>
+            <td>
+                <a asp-controller="User" asp-action="Edit" asp-route-id="@user.UserId" class="btn btn-dark">Edit</a>
+                <a asp-controller="User" asp-action="Delete" asp-route-id="@user.UserId" class="btn btn-dark">Delete</a>
+            </td>
+        </tr>
             }
         }
     </tbody>
 
-</table>
-
-
+</table>  

@@ -11,6 +11,7 @@ using WebApplication8.ViewModels;
 namespace WebApplication8.Controllers
 {
 
+    [Authorize(Roles = "System Admin")]
     public class RoleController : Controller
     {
         private readonly RoleManager<IdentityRole> roleManager;

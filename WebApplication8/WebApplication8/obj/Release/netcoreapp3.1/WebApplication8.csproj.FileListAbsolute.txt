@@ -89,3 +89,4 @@ C:\Users\nguye\source\repos\WebApplication8\WebApplication8\obj\Release\netcorea
 C:\Users\nguye\source\repos\WebApplication8\WebApplication8\obj\Release\netcoreapp3.1\WebApplication8.dll
 C:\Users\nguye\source\repos\WebApplication8\WebApplication8\obj\Release\netcoreapp3.1\WebApplication8.pdb
 C:\Users\nguye\source\repos\WebApplication8\WebApplication8\obj\Release\netcoreapp3.1\WebApplication8.genruntimeconfig.cache
+C:\Users\nguye\source\repos\WebApplication8\WebApplication8\obj\Release\netcoreapp3.1\Razor\Views\User\Create.cshtml.g.cs

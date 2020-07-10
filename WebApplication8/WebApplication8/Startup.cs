@@ -31,7 +31,7 @@ namespace WebApplication8
             services.AddScoped<IFlowerRepository, SqlFlowerRepository>();
             services.AddDbContext<AppDbContext>(options =>
                         options.UseSqlServer(config.GetConnectionString("FlowerConnection")));
-            services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<AppDbContext>();
+            services.AddIdentity<ApplicationUser, IdentityRole>().AddEntityFrameworkStores<AppDbContext>();
 
         }
 

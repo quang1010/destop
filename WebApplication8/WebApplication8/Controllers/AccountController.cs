@@ -9,10 +9,10 @@ namespace WebApplication8.Controllers
 {
     public class AccountController : Controller
     {
-        private readonly UserManager<IdentityUser> userManager;
-        private readonly SignInManager<IdentityUser> signInManager;
-        public AccountController(UserManager<IdentityUser> userManager,
-                                 SignInManager<IdentityUser> signInManager)
+        private readonly UserManager<ApplicationUser> userManager;
+        private readonly SignInManager<ApplicationUser> signInManager;
+        public AccountController(UserManager<ApplicationUser> userManager,
+                                 SignInManager<ApplicationUser> signInManager)
         {
             this.userManager = userManager;
             this.signInManager = signInManager;
@@ -31,14 +31,15 @@ namespace WebApplication8.Controllers
                 var user = new ApplicationUser()
                 {
                     Email = model.Email,
-                    UserName = model.Email
-                    
+                    UserName = model.Email,
+                    Address=model.Address
+
                 };
                 var result = await userManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {
                     await signInManager.SignInAsync(user, isPersistent: false);
-                    return RedirectToAction("index", "home");
+                    return RedirectToAction("Index", "Home");
                 }
                 else
                 {
@@ -99,6 +100,8 @@ namespace WebApplication8.Controllers
             }
             return View(model);
         }
+
+       
 
 
 
