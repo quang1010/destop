@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nguye\\source\\repos\\WebApplication8\\WebApplication8\\WebApplication8.csproj": {}
+    "C:\\Users\\nguye\\Desktop\\dotnet-demo-racingcars\\destop\\WebApplication8\\WebApplication8\\WebApplication8.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nguye\\source\\repos\\WebApplication8\\WebApplication8\\WebApplication8.csproj": {
+    "C:\\Users\\nguye\\Desktop\\dotnet-demo-racingcars\\destop\\WebApplication8\\WebApplication8\\WebApplication8.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nguye\\source\\repos\\WebApplication8\\WebApplication8\\WebApplication8.csproj",
+        "projectUniqueName": "C:\\Users\\nguye\\Desktop\\dotnet-demo-racingcars\\destop\\WebApplication8\\WebApplication8\\WebApplication8.csproj",
         "projectName": "WebApplication8",
-        "projectPath": "C:\\Users\\nguye\\source\\repos\\WebApplication8\\WebApplication8\\WebApplication8.csproj",
+        "projectPath": "C:\\Users\\nguye\\Desktop\\dotnet-demo-racingcars\\destop\\WebApplication8\\WebApplication8\\WebApplication8.csproj",
         "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nguye\\source\\repos\\WebApplication8\\WebApplication8\\obj\\",
+        "outputPath": "C:\\Users\\nguye\\Desktop\\dotnet-demo-racingcars\\destop\\WebApplication8\\WebApplication8\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",

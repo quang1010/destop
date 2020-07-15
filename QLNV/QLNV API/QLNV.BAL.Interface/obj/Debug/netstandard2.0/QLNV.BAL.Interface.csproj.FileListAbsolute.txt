@@ -1,0 +1,12 @@
+D:\C#\QLNV\QLNV API\QLNV.BAL.Interface\bin\Debug\netstandard2.0\QLNV.BAL.Interface.deps.json
+D:\C#\QLNV\QLNV API\QLNV.BAL.Interface\bin\Debug\netstandard2.0\QLNV.BAL.Interface.dll
+D:\C#\QLNV\QLNV API\QLNV.BAL.Interface\bin\Debug\netstandard2.0\QLNV.BAL.Interface.pdb
+D:\C#\QLNV\QLNV API\QLNV.BAL.Interface\bin\Debug\netstandard2.0\QLNV.Domain.dll
+D:\C#\QLNV\QLNV API\QLNV.BAL.Interface\bin\Debug\netstandard2.0\QLNV.Domain.pdb
+D:\C#\QLNV\QLNV API\QLNV.BAL.Interface\obj\Debug\netstandard2.0\QLNV.BAL.Interface.csprojAssemblyReference.cache
+D:\C#\QLNV\QLNV API\QLNV.BAL.Interface\obj\Debug\netstandard2.0\QLNV.BAL.Interface.csproj.CoreCompileInputs.cache
+D:\C#\QLNV\QLNV API\QLNV.BAL.Interface\obj\Debug\netstandard2.0\QLNV.BAL.Interface.AssemblyInfoInputs.cache
+D:\C#\QLNV\QLNV API\QLNV.BAL.Interface\obj\Debug\netstandard2.0\QLNV.BAL.Interface.AssemblyInfo.cs
+D:\C#\QLNV\QLNV API\QLNV.BAL.Interface\obj\Debug\netstandard2.0\QLNV.BAL.Interface.csproj.CopyComplete
+D:\C#\QLNV\QLNV API\QLNV.BAL.Interface\obj\Debug\netstandard2.0\QLNV.BAL.Interface.dll
+D:\C#\QLNV\QLNV API\QLNV.BAL.Interface\obj\Debug\netstandard2.0\QLNV.BAL.Interface.pdb

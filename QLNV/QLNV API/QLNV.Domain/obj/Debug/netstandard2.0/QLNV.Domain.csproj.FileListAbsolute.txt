@@ -1,0 +1,9 @@
+D:\C#\QLNV\QLNV API\QLNV.Domain\bin\Debug\netstandard2.0\QLNV.Domain.deps.json
+D:\C#\QLNV\QLNV API\QLNV.Domain\bin\Debug\netstandard2.0\QLNV.Domain.dll
+D:\C#\QLNV\QLNV API\QLNV.Domain\bin\Debug\netstandard2.0\QLNV.Domain.pdb
+D:\C#\QLNV\QLNV API\QLNV.Domain\obj\Debug\netstandard2.0\QLNV.Domain.csprojAssemblyReference.cache
+D:\C#\QLNV\QLNV API\QLNV.Domain\obj\Debug\netstandard2.0\QLNV.Domain.csproj.CoreCompileInputs.cache
+D:\C#\QLNV\QLNV API\QLNV.Domain\obj\Debug\netstandard2.0\QLNV.Domain.AssemblyInfoInputs.cache
+D:\C#\QLNV\QLNV API\QLNV.Domain\obj\Debug\netstandard2.0\QLNV.Domain.AssemblyInfo.cs
+D:\C#\QLNV\QLNV API\QLNV.Domain\obj\Debug\netstandard2.0\QLNV.Domain.dll
+D:\C#\QLNV\QLNV API\QLNV.Domain\obj\Debug\netstandard2.0\QLNV.Domain.pdb

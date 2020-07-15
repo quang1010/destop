@@ -166,5 +166,27 @@ namespace WebApplication8.Controllers
             }
             return View();
         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        public ViewResult Index2()
+        {
+
+           
+            return View();
+        }
+        
     }
 }

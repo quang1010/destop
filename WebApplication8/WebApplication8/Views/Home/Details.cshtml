@@ -17,11 +17,11 @@
                 <h3>Type Flower: @Model.Flower.TypeF</h3>
             </div>
             <div class="card-footer text-center">
-                @*<a href="@Url.Action("Details","Home", new { id = Model.Employee.Id })" class="btn btn-info">View</a>*@
-                <a asp-controller="Home" asp-action="Index" class="btn btn-warning">Back</a>
-                <a asp-controller="Home" asp-action="Edit" asp-route-id="@Model.Flower.Id" class="btn btn-primary">Edit</a>
+               
+                <a asp-controller="Home" asp-action="Index" class="btn btn-dark">Back</a>
+                <a asp-controller="Home" asp-action="Edit" asp-route-id="@Model.Flower.Id" class="btn btn-dark">Edit</a>
                 <a asp-controller="Home" asp-action="Delete"
-                   asp-route-id="@Model.Flower.Id" class="btn btn-danger">Delete</a>
+                   asp-route-id="@Model.Flower.Id" class="btn btn-dark">Delete</a>
             </div>
         </div>
     </div>

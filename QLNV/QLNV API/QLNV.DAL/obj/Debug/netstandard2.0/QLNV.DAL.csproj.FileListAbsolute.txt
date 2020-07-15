@@ -1,0 +1,14 @@
+D:\C#\QLNV\QLNV API\QLNV.DAL\bin\Debug\netstandard2.0\QLNV.DAL.deps.json
+D:\C#\QLNV\QLNV API\QLNV.DAL\bin\Debug\netstandard2.0\QLNV.DAL.dll
+D:\C#\QLNV\QLNV API\QLNV.DAL\obj\Debug\netstandard2.0\QLNV.DAL.csprojAssemblyReference.cache
+D:\C#\QLNV\QLNV API\QLNV.DAL\obj\Debug\netstandard2.0\QLNV.DAL.AssemblyInfoInputs.cache
+D:\C#\QLNV\QLNV API\QLNV.DAL\obj\Debug\netstandard2.0\QLNV.DAL.AssemblyInfo.cs
+D:\C#\QLNV\QLNV API\QLNV.DAL\bin\Debug\netstandard2.0\QLNV.DAL.Interface.dll
+D:\C#\QLNV\QLNV API\QLNV.DAL\bin\Debug\netstandard2.0\QLNV.Domain.dll
+D:\C#\QLNV\QLNV API\QLNV.DAL\bin\Debug\netstandard2.0\QLNV.DAL.pdb
+D:\C#\QLNV\QLNV API\QLNV.DAL\bin\Debug\netstandard2.0\QLNV.DAL.Interface.pdb
+D:\C#\QLNV\QLNV API\QLNV.DAL\bin\Debug\netstandard2.0\QLNV.Domain.pdb
+D:\C#\QLNV\QLNV API\QLNV.DAL\obj\Debug\netstandard2.0\QLNV.DAL.csproj.CoreCompileInputs.cache
+D:\C#\QLNV\QLNV API\QLNV.DAL\obj\Debug\netstandard2.0\QLNV.DAL.csproj.CopyComplete
+D:\C#\QLNV\QLNV API\QLNV.DAL\obj\Debug\netstandard2.0\QLNV.DAL.dll
+D:\C#\QLNV\QLNV API\QLNV.DAL\obj\Debug\netstandard2.0\QLNV.DAL.pdb

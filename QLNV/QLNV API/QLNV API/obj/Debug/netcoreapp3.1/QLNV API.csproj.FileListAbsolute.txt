@@ -1,0 +1,43 @@
+D:\C#\QLNV\QLNV API\QLNV API\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\C#\QLNV\QLNV API\QLNV API\bin\Debug\netcoreapp3.1\appsettings.json
+D:\C#\QLNV\QLNV API\QLNV API\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\C#\QLNV\QLNV API\QLNV API\bin\Debug\netcoreapp3.1\QLNV API.exe
+D:\C#\QLNV\QLNV API\QLNV API\bin\Debug\netcoreapp3.1\QLNV API.deps.json
+D:\C#\QLNV\QLNV API\QLNV API\bin\Debug\netcoreapp3.1\QLNV API.runtimeconfig.json
+D:\C#\QLNV\QLNV API\QLNV API\bin\Debug\netcoreapp3.1\QLNV API.runtimeconfig.dev.json
+D:\C#\QLNV\QLNV API\QLNV API\bin\Debug\netcoreapp3.1\QLNV API.dll
+D:\C#\QLNV\QLNV API\QLNV API\bin\Debug\netcoreapp3.1\QLNV API.pdb
+D:\C#\QLNV\QLNV API\QLNV API\obj\Debug\netcoreapp3.1\QLNV API.csprojAssemblyReference.cache
+D:\C#\QLNV\QLNV API\QLNV API\obj\Debug\netcoreapp3.1\QLNV API.AssemblyInfoInputs.cache
+D:\C#\QLNV\QLNV API\QLNV API\obj\Debug\netcoreapp3.1\QLNV API.AssemblyInfo.cs
+D:\C#\QLNV\QLNV API\QLNV API\obj\Debug\netcoreapp3.1\QLNV API.RazorTargetAssemblyInfo.cache
+D:\C#\QLNV\QLNV API\QLNV API\obj\Debug\netcoreapp3.1\staticwebassets\QLNV API.StaticWebAssets.Manifest.cache
+D:\C#\QLNV\QLNV API\QLNV API\obj\Debug\netcoreapp3.1\staticwebassets\QLNV API.StaticWebAssets.xml
+D:\C#\QLNV\QLNV API\QLNV API\obj\Debug\netcoreapp3.1\QLNV API.dll
+D:\C#\QLNV\QLNV API\QLNV API\obj\Debug\netcoreapp3.1\QLNV API.pdb
+D:\C#\QLNV\QLNV API\QLNV API\obj\Debug\netcoreapp3.1\QLNV API.genruntimeconfig.cache
+D:\C#\QLNV\QLNV API\QLNV API\bin\Debug\netcoreapp3.1\Dapper.dll
+D:\C#\QLNV\QLNV API\QLNV API\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+D:\C#\QLNV\QLNV API\QLNV API\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\C#\QLNV\QLNV API\QLNV API\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\C#\QLNV\QLNV API\QLNV API\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\C#\QLNV\QLNV API\QLNV API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\C#\QLNV\QLNV API\QLNV API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\C#\QLNV\QLNV API\QLNV API\bin\Debug\netcoreapp3.1\QLNV.BAL.dll
+D:\C#\QLNV\QLNV API\QLNV API\bin\Debug\netcoreapp3.1\QLNV.BAL.Interface.dll
+D:\C#\QLNV\QLNV API\QLNV API\bin\Debug\netcoreapp3.1\QLNV.DAL.dll
+D:\C#\QLNV\QLNV API\QLNV API\bin\Debug\netcoreapp3.1\QLNV.DAL.Interface.dll
+D:\C#\QLNV\QLNV API\QLNV API\bin\Debug\netcoreapp3.1\QLNV.Domain.dll
+D:\C#\QLNV\QLNV API\QLNV API\bin\Debug\netcoreapp3.1\QLNV.BAL.Interface.pdb
+D:\C#\QLNV\QLNV API\QLNV API\bin\Debug\netcoreapp3.1\QLNV.BAL.pdb
+D:\C#\QLNV\QLNV API\QLNV API\bin\Debug\netcoreapp3.1\QLNV.DAL.Interface.pdb
+D:\C#\QLNV\QLNV API\QLNV API\bin\Debug\netcoreapp3.1\QLNV.DAL.pdb
+D:\C#\QLNV\QLNV API\QLNV API\bin\Debug\netcoreapp3.1\QLNV.Domain.pdb
+D:\C#\QLNV\QLNV API\QLNV API\obj\Debug\netcoreapp3.1\QLNV API.csproj.CopyComplete
+D:\C#\QLNV\QLNV API\QLNV API\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+D:\C#\QLNV\QLNV API\QLNV API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+D:\C#\QLNV\QLNV API\QLNV API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\C#\QLNV\QLNV API\QLNV API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\C#\QLNV\QLNV API\QLNV API\obj\Debug\netcoreapp3.1\QLNV API.csproj.CoreCompileInputs.cache
+D:\C#\QLNV\QLNV API\QLNV API\obj\Debug\netcoreapp3.1\QLNV API.MvcApplicationPartsAssemblyInfo.cs
+D:\C#\QLNV\QLNV API\QLNV API\obj\Debug\netcoreapp3.1\QLNV API.MvcApplicationPartsAssemblyInfo.cache
