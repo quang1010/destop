@@ -28,7 +28,7 @@ namespace WebApplication5.Models
         public DateTime Nsx { get; set; }
         [Required]
         [DisplayName("Giá bán")]
-        public string GiaBan{ get; set; }
+        public int GiaBan{ get; set; }
 
         [DisplayName("Đã xóa")]
         public bool DaXoa { get; set; }

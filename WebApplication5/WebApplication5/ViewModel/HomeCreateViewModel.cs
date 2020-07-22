@@ -15,13 +15,17 @@ namespace WebApplication5.ViewModel
         [Required]
         [StringLength(30, ErrorMessage = "Can not  exceed 30 characters")]
         public string nameCake { get; set; }
+        [Required]
         public string ThanhPhan { get; set; }
         [Required]
+        
+        [DataType(DataType.Date)]
          public DateTime  Hsd { get; set; }
         [Required]
+        [DataType(DataType.Date)]
         public DateTime Nsx { get; set; }
         [Required]
-        public string GiaBan { get; set; }
+        public int GiaBan { get; set; }
         [Required]
         public bool DaXoa { get; set; }
 

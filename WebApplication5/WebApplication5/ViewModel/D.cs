@@ -17,7 +17,7 @@ namespace WebApplication5.ViewModel
        
         public DateTime Nsx { get; set; }
         
-        public string GiaBan { get; set; }
+        public int GiaBan { get; set; }
         
         public bool DaXoa { get; set; }
 
