@@ -1,0 +1,36 @@
+﻿@model D
+<div class="row justify-content-center">
+
+    <div class="card">
+
+
+
+        <!-- Card content -->
+        <!-- Title -->
+        <h4 class="card-title">Id :@Model.Id</h4>
+        <h4 class="card-title ">Tên bánh :@Model.nameCake</h4>
+        <h4 class="card-text">Thành phần  :@Model.ThanhPhan</h4>
+
+        <h4 class="card-text">Hạn sử dụng :@Model.Hsd</h4>
+        <h4 class="card-text">Ngày sản xuất :@Model.Nsx</h4>
+        <h4 class="card-text">Giá bán:@Model.GiaBan</h4>
+        <h4 class="card-text">Đã xóa :@Model.DaXoa</h4>
+        <h4 class="card-text">Thể Loại :@Model.CategoryName</h4>
+        <!-- Text -->
+        <hr />
+
+        <div class="card-body text-center">
+
+            <div>
+                <a asp-controller="Home" asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-outline-primary mx-2">Update</a>
+                <a asp-controller="Home" asp-action="Delete" asp-route-id="@Model.Id" class="btn btn-outline-primary ">Delete</a>
+                <a class="btn btn-outline-primary" asp-controller="Home" asp-action="Index">Back</a>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+ 
