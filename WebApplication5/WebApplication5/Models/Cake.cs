@@ -20,14 +20,16 @@ namespace WebApplication5.Models
         public string ThanhPhan { get; set; }
         [Required]
         [DisplayName("Hạn sử dụng")]
-      
+        [DataType(DataType.Date)]
         public DateTime Hsd { get; set; }
         [Required]
         [DisplayName("Ngày sản xuất")]
+        [DataType(DataType.Date)]
       
         public DateTime Nsx { get; set; }
         [Required]
         [DisplayName("Giá bán")]
+       
         public int GiaBan{ get; set; }
 
         [DisplayName("Đã xóa")]

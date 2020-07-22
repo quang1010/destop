@@ -61,17 +61,13 @@ namespace WebApplication5.Models
                         {
                             Id = st.Id,
                             nameCake = st.nameCake,
-                            ThanhPhan = st.ThanhPhan,
-                            
+                            ThanhPhan = st.ThanhPhan,                           
                             Hsd = st.Hsd,
                             Nsx = st.Nsx,
                             GiaBan = st.GiaBan,
                             DaXoa=st.DaXoa,
-
-
-                            CategoryName = t.CategoryName
-
-
+                            CategoryName = t.CategoryName,
+                            CategoryId = t.CategoryId
                         }).FirstOrDefault();
             return data;
         }

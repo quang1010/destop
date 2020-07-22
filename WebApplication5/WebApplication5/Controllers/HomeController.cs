@@ -86,10 +86,8 @@ namespace WebApplication5.Controllers
                               select new DetailViewModel()
                               {
                                   Id = st.Id,
-
                                   nameCake = st.nameCake,
                                   ThanhPhan = st.ThanhPhan,
-
                                   Hsd = st.Hsd,
                                   Nsx = st.Nsx,
                                   GiaBan = st.GiaBan,
@@ -119,7 +117,7 @@ namespace WebApplication5.Controllers
                 DaXoa = student.DaXoa,
                 CategoryId = student.CategoryId
             };
-            ViewBag.Classes = GetClasses();
+            ViewBag.Category = GetClasses();
             return View(editStudent);
         }
 
@@ -146,7 +144,7 @@ namespace WebApplication5.Controllers
                 return RedirectToAction("ViewDetail", "Home", new { id = editStd.CategoryId });
 
             }
-            ViewBag.Classes = GetClasses();
+            ViewBag.Category = GetClasses();
             return View();
 
         }
