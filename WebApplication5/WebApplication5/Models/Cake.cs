@@ -10,7 +10,7 @@ namespace WebApplication5.Models
 {
     public class Cake
     {
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        
         public int Id { get; set; }
         [Required]
         [StringLength(30, ErrorMessage = "Can not  exceed 30 characters")]
@@ -20,10 +20,12 @@ namespace WebApplication5.Models
         public string ThanhPhan { get; set; }
         [Required]
         [DisplayName("Hạn sử dụng")]
-        public string Hsd { get; set; }
+      
+        public DateTime Hsd { get; set; }
         [Required]
         [DisplayName("Ngày sản xuất")]
-        public string Nsx { get; set; }
+      
+        public DateTime Nsx { get; set; }
         [Required]
         [DisplayName("Giá bán")]
         public string GiaBan{ get; set; }

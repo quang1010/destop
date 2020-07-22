@@ -1,6 +1,8 @@
-﻿using System;
+﻿using Castle.MicroKernel.SubSystems.Conversion;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -15,14 +17,13 @@ namespace WebApplication5.ViewModel
         public string nameCake { get; set; }
         public string ThanhPhan { get; set; }
         [Required]
-        public string Hsd { get; set; }
+         public DateTime  Hsd { get; set; }
         [Required]
-        public string Nsx { get; set; }
+        public DateTime Nsx { get; set; }
         [Required]
         public string GiaBan { get; set; }
         [Required]
         public bool DaXoa { get; set; }
-
 
         [Required]
         public int CategoryId { get; set; }

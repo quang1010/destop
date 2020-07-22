@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C#\\WebApplication5\\WebApplication5\\WebApplication5.csproj": {}
+    "C:\\Users\\nguye\\Desktop\\dotnet-demo-racingcars\\destop\\WebApplication5\\WebApplication5\\WebApplication5.csproj": {}
   },
   "projects": {
-    "D:\\C#\\WebApplication5\\WebApplication5\\WebApplication5.csproj": {
+    "C:\\Users\\nguye\\Desktop\\dotnet-demo-racingcars\\destop\\WebApplication5\\WebApplication5\\WebApplication5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#\\WebApplication5\\WebApplication5\\WebApplication5.csproj",
+        "projectUniqueName": "C:\\Users\\nguye\\Desktop\\dotnet-demo-racingcars\\destop\\WebApplication5\\WebApplication5\\WebApplication5.csproj",
         "projectName": "WebApplication5",
-        "projectPath": "D:\\C#\\WebApplication5\\WebApplication5\\WebApplication5.csproj",
+        "projectPath": "C:\\Users\\nguye\\Desktop\\dotnet-demo-racingcars\\destop\\WebApplication5\\WebApplication5\\WebApplication5.csproj",
         "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-        "outputPath": "D:\\C#\\WebApplication5\\WebApplication5\\obj\\",
+        "outputPath": "C:\\Users\\nguye\\Desktop\\dotnet-demo-racingcars\\destop\\WebApplication5\\WebApplication5\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -38,6 +38,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Castle.Windsor": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.6, )"

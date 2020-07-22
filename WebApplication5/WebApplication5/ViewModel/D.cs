@@ -13,9 +13,9 @@ namespace WebApplication5.ViewModel
         public string nameCake { get; set; }
         public string ThanhPhan { get; set; }
        
-        public string Hsd { get; set; }
-        
-        public string Nsx { get; set; }
+        public DateTime Hsd { get; set; }
+       
+        public DateTime Nsx { get; set; }
         
         public string GiaBan { get; set; }
         
