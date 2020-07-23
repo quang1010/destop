@@ -13,10 +13,10 @@ namespace QLNV.DAL
 {
     public class PhongBanRepository : BaseRepository, IPhongBanRepository
     {
-        public IList<PhongBan> DanhSachPhongBan()
+        public IList<PhongBan> DanhSachNhanVienTheoPhongBan()
         {
-         
-                 IList<PhongBan> danhSachPhongBan = SqlMapper.Query<PhongBan>(con, "DanhSachPhongBan", commandType: CommandType.StoredProcedure).ToList();
+
+            IList<PhongBan > danhSachPhongBan = SqlMapper.Query<PhongBan>(con, "DanhSachPhongBan", commandType: CommandType.StoredProcedure).ToList();
                 return danhSachPhongBan;
 
         }
@@ -25,7 +25,7 @@ namespace QLNV.DAL
         {
             DynamicParameters parameters = new DynamicParameters();
                 parameters.Add("@Id", Id);
-         PhongBan phongBan = SqlMapper.Query<PhongBan>(con, "LayPhongBanID", commandType: CommandType.StoredProcedure).FirstOrDefault();
+            PhongBan phongBan = SqlMapper.Query<PhongBan>(con, "LayPhongBanID", commandType: CommandType.StoredProcedure).FirstOrDefault();
                 return phongBan;
           
         }

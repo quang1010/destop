@@ -12,3 +12,5 @@ D:\C#\QLNV\QLNV API\QLNV.DAL\obj\Debug\netstandard2.0\QLNV.DAL.csproj.CoreCompil
 D:\C#\QLNV\QLNV API\QLNV.DAL\obj\Debug\netstandard2.0\QLNV.DAL.csproj.CopyComplete
 D:\C#\QLNV\QLNV API\QLNV.DAL\obj\Debug\netstandard2.0\QLNV.DAL.dll
 D:\C#\QLNV\QLNV API\QLNV.DAL\obj\Debug\netstandard2.0\QLNV.DAL.pdb
+D:\C#\QLNV\QLNV API\QLNV.DAL\bin\Debug\netstandard2.0\QLNV.BAL.Interface.dll
+D:\C#\QLNV\QLNV API\QLNV.DAL\bin\Debug\netstandard2.0\QLNV.BAL.Interface.pdb

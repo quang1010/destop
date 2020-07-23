@@ -26,6 +26,19 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
+      "QLNV.BAL.Interface/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "QLNV.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/QLNV.BAL.Interface.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/QLNV.BAL.Interface.dll": {}
+        }
+      },
       "QLNV.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -183,6 +196,11 @@
         "netstandard.library.nuspec"
       ]
     },
+    "QLNV.BAL.Interface/1.0.0": {
+      "type": "project",
+      "path": "../QLNV.BAL.Interface/QLNV.BAL.Interface.csproj",
+      "msbuildProject": "../QLNV.BAL.Interface/QLNV.BAL.Interface.csproj"
+    },
     "QLNV.Domain/1.0.0": {
       "type": "project",
       "path": "../QLNV.Domain/QLNV.Domain.csproj",
@@ -192,6 +210,7 @@
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "NETStandard.Library >= 2.0.3",
+      "QLNV.BAL.Interface >= 1.0.0",
       "QLNV.Domain >= 1.0.0"
     ]
   },
@@ -201,11 +220,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\C#\\QLNV\\QLNV API\\QLNV.DAL.Interface\\QLNV.DAL.Interface.csproj",
+      "projectUniqueName": "C:\\Users\\nguye\\Desktop\\dotnet-demo-racingcars\\destop\\QLNV\\QLNV API\\QLNV.DAL.Interface\\QLNV.DAL.Interface.csproj",
       "projectName": "QLNV.DAL.Interface",
-      "projectPath": "D:\\C#\\QLNV\\QLNV API\\QLNV.DAL.Interface\\QLNV.DAL.Interface.csproj",
+      "projectPath": "C:\\Users\\nguye\\Desktop\\dotnet-demo-racingcars\\destop\\QLNV\\QLNV API\\QLNV.DAL.Interface\\QLNV.DAL.Interface.csproj",
       "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-      "outputPath": "D:\\C#\\QLNV\\QLNV API\\QLNV.DAL.Interface\\obj\\",
+      "outputPath": "C:\\Users\\nguye\\Desktop\\dotnet-demo-racingcars\\destop\\QLNV\\QLNV API\\QLNV.DAL.Interface\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -221,8 +240,11 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "D:\\C#\\QLNV\\QLNV API\\QLNV.Domain\\QLNV.Domain.csproj": {
-              "projectPath": "D:\\C#\\QLNV\\QLNV API\\QLNV.Domain\\QLNV.Domain.csproj"
+            "C:\\Users\\nguye\\Desktop\\dotnet-demo-racingcars\\destop\\QLNV\\QLNV API\\QLNV.BAL.Interface\\QLNV.BAL.Interface.csproj": {
+              "projectPath": "C:\\Users\\nguye\\Desktop\\dotnet-demo-racingcars\\destop\\QLNV\\QLNV API\\QLNV.BAL.Interface\\QLNV.BAL.Interface.csproj"
+            },
+            "C:\\Users\\nguye\\Desktop\\dotnet-demo-racingcars\\destop\\QLNV\\QLNV API\\QLNV.Domain\\QLNV.Domain.csproj": {
+              "projectPath": "C:\\Users\\nguye\\Desktop\\dotnet-demo-racingcars\\destop\\QLNV\\QLNV API\\QLNV.Domain\\QLNV.Domain.csproj"
             }
           }
         }

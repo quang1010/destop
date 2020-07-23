@@ -4,7 +4,7 @@ using System.Text;
 
 namespace QLNV.Domain.Request
 {
-  public  class SuaPhongBan
+  public class SuaPhongBan
     {
         public int Id { get; set; }
         public string MaPhongBan { get; set; }

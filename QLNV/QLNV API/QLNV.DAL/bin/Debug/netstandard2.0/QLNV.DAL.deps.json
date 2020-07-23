@@ -12,6 +12,7 @@
           "Dapper": "2.0.30",
           "NETStandard.Library": "2.0.3",
           "QLNV.DAL.Interface": "1.0.0",
+          "QLNV.Domain": "1.0.0",
           "System.Data.SqlClient": "4.8.0"
         },
         "runtime": {
@@ -173,8 +174,17 @@
           }
         }
       },
+      "QLNV.BAL.Interface/1.0.0": {
+        "dependencies": {
+          "QLNV.Domain": "1.0.0"
+        },
+        "runtime": {
+          "QLNV.BAL.Interface.dll": {}
+        }
+      },
       "QLNV.DAL.Interface/1.0.0": {
         "dependencies": {
+          "QLNV.BAL.Interface": "1.0.0",
           "QLNV.Domain": "1.0.0"
         },
         "runtime": {
@@ -326,6 +336,11 @@
       "sha512": "sha512-aeu4FlaUTemuT1qOd1MyU4T516QR4Fy+9yDbwWMPHOHy7U8FD6SgTzdZFO7gHcfAPHtECqInbwklVvUK4RHcNg==",
       "path": "system.text.encoding.codepages/4.7.0",
       "hashPath": "system.text.encoding.codepages.4.7.0.nupkg.sha512"
+    },
+    "QLNV.BAL.Interface/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "QLNV.DAL.Interface/1.0.0": {
       "type": "project",

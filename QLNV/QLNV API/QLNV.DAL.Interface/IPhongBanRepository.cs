@@ -8,7 +8,7 @@ namespace QLNV.DAL.Interface
 {
     public interface IPhongBanRepository
     {
-        IList<PhongBan> DanhSachPhongBan();
+        IList<PhongBan> DanhSachNhanVienTheoPhongBan();
         PhongBan LayPhongBanID(int Id);
         int TaoPhongBan(TaoPhongBan request);
         int SuaPhongBan(SuaPhongBan request);

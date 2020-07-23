@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\QLNV.BAL.Interface\QLNV.BAL.Interface.csproj" />
     <ProjectReference Include="..\QLNV.Domain\QLNV.Domain.csproj" />
   </ItemGroup>
 

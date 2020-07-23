@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Y5eXBAdz7J1uS6Yh7s+NuJtFdJjsIyNZNwNpln990kPOZGmohEhQ/QBEaOlvztt1oH5Q3YxelY2eQPampLEjZw==",
+  "dgSpecHash": "EPe9LBwzS5yCs/ELwGlHHmnbqDDwTT71+RDWfl02Q0bDoZ03a/ZFWt8TLIvCOUAxj0iJWwzWoiB7b6lshCAzXg==",
   "success": true,
-  "projectFilePath": "D:\\C#\\QLNV\\QLNV API\\QLNV.BAL\\QLNV.BAL.csproj",
+  "projectFilePath": "C:\\Users\\nguye\\Desktop\\dotnet-demo-racingcars\\destop\\QLNV\\QLNV API\\QLNV.BAL\\QLNV.BAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nguye\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\nguye\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"

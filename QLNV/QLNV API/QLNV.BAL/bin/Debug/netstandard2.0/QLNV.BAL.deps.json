@@ -33,6 +33,7 @@
       },
       "QLNV.DAL.Interface/1.0.0": {
         "dependencies": {
+          "QLNV.BAL.Interface": "1.0.0",
           "QLNV.Domain": "1.0.0"
         },
         "runtime": {

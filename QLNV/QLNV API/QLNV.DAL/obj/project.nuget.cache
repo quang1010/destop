@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZR5uQsxtCj8Pn7YiCiHgQ3EtOWaxokHAE8QGTiMvfIx1aYwD+PGRGHVC3h2Pk1RCfmCIuycWaJMaDiQ+7ePFKw==",
+  "dgSpecHash": "ZufUcu3SjVmYjUXBLPHND/q8pU1RLMtQQ0ya2jN+EZYiB8MUq7KTEMadxVkDzCf6eNchy5PMp+r8j6v9IJ6KuQ==",
   "success": true,
-  "projectFilePath": "D:\\C#\\QLNV\\QLNV API\\QLNV.DAL\\QLNV.DAL.csproj",
+  "projectFilePath": "C:\\Users\\nguye\\Desktop\\dotnet-demo-racingcars\\destop\\QLNV\\QLNV API\\QLNV.DAL\\QLNV.DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nguye\\.nuget\\packages\\dapper\\2.0.30\\dapper.2.0.30.nupkg.sha512",
     "C:\\Users\\nguye\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",

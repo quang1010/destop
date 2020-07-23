@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-using QLNV.BAL;
+﻿using Microsoft.AspNetCore.Mvc;
 using QLNV.BAL.Interface;
 using QLNV.Domain.Request;
 using QLNV.Domain.Response;
+using System.Collections.Generic;
 
 namespace QLNV_API.Controllers
 {

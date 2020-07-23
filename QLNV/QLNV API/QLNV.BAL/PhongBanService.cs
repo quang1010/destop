@@ -16,7 +16,7 @@ namespace QLNV.BAL
         }
         public IList<PhongBan> DanhSachPhongBan()
         {
-            return _phongBanRepository.DanhSachPhongBan();
+            return _phongBanRepository.DanhSachNhanVienTheoPhongBan();
         }
 
         public PhongBan LayPhongBanID(int Id)
