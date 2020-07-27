@@ -21,8 +21,6 @@ namespace QLNV.DAL
 
         }
 
-      
-
         public NhanVien LayNhanVienTheoID(int maNV)
         {
             DynamicParameters parameters = new DynamicParameters();
@@ -67,6 +65,7 @@ namespace QLNV.DAL
                 parameters.Add("@Dienthoai", request.Dienthoai);
                 parameters.Add("@Email", request.Email);
                 parameters.Add("@PhongBanId", request.PhongBanId);
+               
                 var id = SqlMapper.ExecuteScalar<int>(con, "TaoNhanVien", commandType: CommandType.StoredProcedure);
                 return id;
             }

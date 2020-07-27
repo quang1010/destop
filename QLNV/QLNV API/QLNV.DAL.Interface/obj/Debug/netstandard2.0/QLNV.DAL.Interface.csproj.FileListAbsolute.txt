@@ -12,3 +12,17 @@ D:\C#\QLNV\QLNV API\QLNV.DAL.Interface\obj\Debug\netstandard2.0\QLNV.DAL.Interfa
 D:\C#\QLNV\QLNV API\QLNV.DAL.Interface\obj\Debug\netstandard2.0\QLNV.DAL.Interface.pdb
 D:\C#\QLNV\QLNV API\QLNV.DAL.Interface\bin\Debug\netstandard2.0\QLNV.BAL.Interface.dll
 D:\C#\QLNV\QLNV API\QLNV.DAL.Interface\bin\Debug\netstandard2.0\QLNV.BAL.Interface.pdb
+C:\Users\nguye\Desktop\dotnet-demo-racingcars\destop\QLNV\QLNV API\QLNV.DAL.Interface\bin\Debug\netstandard2.0\QLNV.DAL.Interface.deps.json
+C:\Users\nguye\Desktop\dotnet-demo-racingcars\destop\QLNV\QLNV API\QLNV.DAL.Interface\bin\Debug\netstandard2.0\QLNV.DAL.Interface.dll
+C:\Users\nguye\Desktop\dotnet-demo-racingcars\destop\QLNV\QLNV API\QLNV.DAL.Interface\bin\Debug\netstandard2.0\QLNV.DAL.Interface.pdb
+C:\Users\nguye\Desktop\dotnet-demo-racingcars\destop\QLNV\QLNV API\QLNV.DAL.Interface\bin\Debug\netstandard2.0\QLNV.BAL.Interface.dll
+C:\Users\nguye\Desktop\dotnet-demo-racingcars\destop\QLNV\QLNV API\QLNV.DAL.Interface\bin\Debug\netstandard2.0\QLNV.Domain.dll
+C:\Users\nguye\Desktop\dotnet-demo-racingcars\destop\QLNV\QLNV API\QLNV.DAL.Interface\bin\Debug\netstandard2.0\QLNV.BAL.Interface.pdb
+C:\Users\nguye\Desktop\dotnet-demo-racingcars\destop\QLNV\QLNV API\QLNV.DAL.Interface\bin\Debug\netstandard2.0\QLNV.Domain.pdb
+C:\Users\nguye\Desktop\dotnet-demo-racingcars\destop\QLNV\QLNV API\QLNV.DAL.Interface\obj\Debug\netstandard2.0\QLNV.DAL.Interface.csprojAssemblyReference.cache
+C:\Users\nguye\Desktop\dotnet-demo-racingcars\destop\QLNV\QLNV API\QLNV.DAL.Interface\obj\Debug\netstandard2.0\QLNV.DAL.Interface.csproj.CoreCompileInputs.cache
+C:\Users\nguye\Desktop\dotnet-demo-racingcars\destop\QLNV\QLNV API\QLNV.DAL.Interface\obj\Debug\netstandard2.0\QLNV.DAL.Interface.AssemblyInfoInputs.cache
+C:\Users\nguye\Desktop\dotnet-demo-racingcars\destop\QLNV\QLNV API\QLNV.DAL.Interface\obj\Debug\netstandard2.0\QLNV.DAL.Interface.AssemblyInfo.cs
+C:\Users\nguye\Desktop\dotnet-demo-racingcars\destop\QLNV\QLNV API\QLNV.DAL.Interface\obj\Debug\netstandard2.0\QLNV.DAL.Interface.csproj.CopyComplete
+C:\Users\nguye\Desktop\dotnet-demo-racingcars\destop\QLNV\QLNV API\QLNV.DAL.Interface\obj\Debug\netstandard2.0\QLNV.DAL.Interface.dll
+C:\Users\nguye\Desktop\dotnet-demo-racingcars\destop\QLNV\QLNV API\QLNV.DAL.Interface\obj\Debug\netstandard2.0\QLNV.DAL.Interface.pdb

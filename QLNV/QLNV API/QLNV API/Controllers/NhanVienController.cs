@@ -12,13 +12,10 @@ namespace QLNV_API.Controllers
     {
         private readonly INhanVienService _nhanVienService;
 
-
-
         public NhanVienController(INhanVienService nhanVienService)
         {
             _nhanVienService = nhanVienService;
         }
-
 
         [HttpGet]
         [Route("/nhanvien/danhsachnhanvientheophongban/{id}")]
@@ -26,8 +23,6 @@ namespace QLNV_API.Controllers
         {
             return _nhanVienService.DanhSachNhanVienTheoPhongBan(id);
         }
-
-
 
 
         [HttpGet]

@@ -7,3 +7,12 @@ D:\C#\QLNV\QLNV API\QLNV.Domain\obj\Debug\netstandard2.0\QLNV.Domain.AssemblyInf
 D:\C#\QLNV\QLNV API\QLNV.Domain\obj\Debug\netstandard2.0\QLNV.Domain.AssemblyInfo.cs
 D:\C#\QLNV\QLNV API\QLNV.Domain\obj\Debug\netstandard2.0\QLNV.Domain.dll
 D:\C#\QLNV\QLNV API\QLNV.Domain\obj\Debug\netstandard2.0\QLNV.Domain.pdb
+C:\Users\nguye\Desktop\dotnet-demo-racingcars\destop\QLNV\QLNV API\QLNV.Domain\bin\Debug\netstandard2.0\QLNV.Domain.deps.json
+C:\Users\nguye\Desktop\dotnet-demo-racingcars\destop\QLNV\QLNV API\QLNV.Domain\bin\Debug\netstandard2.0\QLNV.Domain.dll
+C:\Users\nguye\Desktop\dotnet-demo-racingcars\destop\QLNV\QLNV API\QLNV.Domain\bin\Debug\netstandard2.0\QLNV.Domain.pdb
+C:\Users\nguye\Desktop\dotnet-demo-racingcars\destop\QLNV\QLNV API\QLNV.Domain\obj\Debug\netstandard2.0\QLNV.Domain.csprojAssemblyReference.cache
+C:\Users\nguye\Desktop\dotnet-demo-racingcars\destop\QLNV\QLNV API\QLNV.Domain\obj\Debug\netstandard2.0\QLNV.Domain.csproj.CoreCompileInputs.cache
+C:\Users\nguye\Desktop\dotnet-demo-racingcars\destop\QLNV\QLNV API\QLNV.Domain\obj\Debug\netstandard2.0\QLNV.Domain.AssemblyInfoInputs.cache
+C:\Users\nguye\Desktop\dotnet-demo-racingcars\destop\QLNV\QLNV API\QLNV.Domain\obj\Debug\netstandard2.0\QLNV.Domain.AssemblyInfo.cs
+C:\Users\nguye\Desktop\dotnet-demo-racingcars\destop\QLNV\QLNV API\QLNV.Domain\obj\Debug\netstandard2.0\QLNV.Domain.dll
+C:\Users\nguye\Desktop\dotnet-demo-racingcars\destop\QLNV\QLNV API\QLNV.Domain\obj\Debug\netstandard2.0\QLNV.Domain.pdb

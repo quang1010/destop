@@ -10,3 +10,15 @@ D:\C#\QLNV\QLNV API\QLNV.BAL.Interface\obj\Debug\netstandard2.0\QLNV.BAL.Interfa
 D:\C#\QLNV\QLNV API\QLNV.BAL.Interface\obj\Debug\netstandard2.0\QLNV.BAL.Interface.csproj.CopyComplete
 D:\C#\QLNV\QLNV API\QLNV.BAL.Interface\obj\Debug\netstandard2.0\QLNV.BAL.Interface.dll
 D:\C#\QLNV\QLNV API\QLNV.BAL.Interface\obj\Debug\netstandard2.0\QLNV.BAL.Interface.pdb
+C:\Users\nguye\Desktop\dotnet-demo-racingcars\destop\QLNV\QLNV API\QLNV.BAL.Interface\bin\Debug\netstandard2.0\QLNV.BAL.Interface.deps.json
+C:\Users\nguye\Desktop\dotnet-demo-racingcars\destop\QLNV\QLNV API\QLNV.BAL.Interface\bin\Debug\netstandard2.0\QLNV.BAL.Interface.dll
+C:\Users\nguye\Desktop\dotnet-demo-racingcars\destop\QLNV\QLNV API\QLNV.BAL.Interface\bin\Debug\netstandard2.0\QLNV.BAL.Interface.pdb
+C:\Users\nguye\Desktop\dotnet-demo-racingcars\destop\QLNV\QLNV API\QLNV.BAL.Interface\bin\Debug\netstandard2.0\QLNV.Domain.dll
+C:\Users\nguye\Desktop\dotnet-demo-racingcars\destop\QLNV\QLNV API\QLNV.BAL.Interface\bin\Debug\netstandard2.0\QLNV.Domain.pdb
+C:\Users\nguye\Desktop\dotnet-demo-racingcars\destop\QLNV\QLNV API\QLNV.BAL.Interface\obj\Debug\netstandard2.0\QLNV.BAL.Interface.csprojAssemblyReference.cache
+C:\Users\nguye\Desktop\dotnet-demo-racingcars\destop\QLNV\QLNV API\QLNV.BAL.Interface\obj\Debug\netstandard2.0\QLNV.BAL.Interface.csproj.CoreCompileInputs.cache
+C:\Users\nguye\Desktop\dotnet-demo-racingcars\destop\QLNV\QLNV API\QLNV.BAL.Interface\obj\Debug\netstandard2.0\QLNV.BAL.Interface.AssemblyInfoInputs.cache
+C:\Users\nguye\Desktop\dotnet-demo-racingcars\destop\QLNV\QLNV API\QLNV.BAL.Interface\obj\Debug\netstandard2.0\QLNV.BAL.Interface.AssemblyInfo.cs
+C:\Users\nguye\Desktop\dotnet-demo-racingcars\destop\QLNV\QLNV API\QLNV.BAL.Interface\obj\Debug\netstandard2.0\QLNV.BAL.Interface.csproj.CopyComplete
+C:\Users\nguye\Desktop\dotnet-demo-racingcars\destop\QLNV\QLNV API\QLNV.BAL.Interface\obj\Debug\netstandard2.0\QLNV.BAL.Interface.dll
+C:\Users\nguye\Desktop\dotnet-demo-racingcars\destop\QLNV\QLNV API\QLNV.BAL.Interface\obj\Debug\netstandard2.0\QLNV.BAL.Interface.pdb
