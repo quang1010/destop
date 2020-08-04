@@ -25,7 +25,7 @@ namespace QLNV.DAL
         {
             DynamicParameters parameters = new DynamicParameters();
                 parameters.Add("@MaNV", maNV);
-         NhanVien nhanvien = SqlMapper.Query<NhanVien>(con, "LayNhanVienTheoMaNV", commandType: CommandType.StoredProcedure).FirstOrDefault();
+         NhanVien nhanvien = SqlMapper.Query<NhanVien>(con, "LayNhanVienTheoMaNV",parameters, commandType: CommandType.StoredProcedure).FirstOrDefault();
                 return nhanvien;
           
         }
@@ -43,7 +43,7 @@ namespace QLNV.DAL
                 parameters.Add("@Email", request.Email);
                 parameters.Add("@PhongBanId", request.PhongBanId);
             
-                var id = SqlMapper.ExecuteScalar<int>(con, "SuaNhanVien", commandType: CommandType.StoredProcedure);
+                var id = SqlMapper.ExecuteScalar<int>(con, "SuaNhanVien",parameters, commandType: CommandType.StoredProcedure);
                 return id;
             }
             catch(Exception ex)
@@ -66,7 +66,7 @@ namespace QLNV.DAL
                 parameters.Add("@Email", request.Email);
                 parameters.Add("@PhongBanId", request.PhongBanId);
                
-                var id = SqlMapper.ExecuteScalar<int>(con, "TaoNhanVien", commandType: CommandType.StoredProcedure);
+                var id = SqlMapper.ExecuteScalar<int>(con, "TaoNhanVien",param:parameters, commandType: CommandType.StoredProcedure);
                 return id;
             }
             catch (Exception ex)
@@ -83,7 +83,7 @@ namespace QLNV.DAL
 
                 parameters.Add("@MaNV", maNV);
               
-                var result = SqlMapper.ExecuteScalar<bool>(con, " XoaPh", commandType: CommandType.StoredProcedure);
+                var result = SqlMapper.ExecuteScalar<bool>(con, "XoaNhanVien",parameters, commandType: CommandType.StoredProcedure);
                 return result;
             }
             catch (Exception ex)

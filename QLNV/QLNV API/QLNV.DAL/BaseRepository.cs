@@ -11,7 +11,7 @@ namespace QLNV.DAL
         protected IDbConnection con;
         public BaseRepository()
         {
-           string connectString = @"Data Source=DESKTOP-IRVLQFI\SQL2019;Initial Catalog=ql;Integrated Security=True";
+           string connectString = @"Data Source=DESKTOP-IRVLQFI\SQL2019;Initial Catalog=QuanLyNhanVien;Integrated Security=True";
             con = new SqlConnection(connectString);
         }
 
